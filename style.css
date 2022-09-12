@@ -5,12 +5,12 @@ html, body {
 }
 
 html{
-    background-image: url('./images/gadsden.png');
+    background-image: url('./images/pastelwinter.jpg');
     background-size:cover;
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
+    background: linear-gradient(-45deg, rgb(64, 115, 199,0.5), rgba(207,58,58, 0.5));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
     padding-top:35px;
@@ -60,7 +60,7 @@ body {
 }
 
 .userName {
-    color: var(--accentColor);
+    color: white;
     font-size: x-large;
     font-weight: bold;
     line-height: 1.25;
@@ -80,7 +80,7 @@ body {
 .link {
     position: relative;
     background-color: transparent;
-    color: var(--accentColor);
+    color: white;
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
@@ -107,4 +107,5 @@ body {
     color: #000; /* Fallback for older browsers */
     color: rgba(0, 0, 0, 0.5);
 }
+
 
